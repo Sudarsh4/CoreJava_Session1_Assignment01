@@ -1,0 +1,26 @@
+// importing the scanner library to aid in user inputs
+import java.util.Scanner;
+// Assignment 101 begins...
+public class Assignment_101 {
+	// Main program of Assignment Class beings...
+	public static void main(String[] args) {
+		// enabling the userinput through scanner library
+		Scanner usrinput = new Scanner(System.in);
+		// Getting the first number from the user...
+		System.out.println("Please give the first number: ");
+		int num1 = usrinput.nextInt();
+		// Getting the second number from the user...
+		System.out.println("Please give the Second number: ");
+		int num2 = usrinput.nextInt();
+		// Message to the user about the process...
+		System.out.println("Adding the above two numbers, without using the + operator");
+		// Actual Calculation using the below logic
+		int	num=num1-(-num2);
+		// Printing the output to the user with the logic used!
+		System.out.println("Sum of first & second numbers \n \n ---=== "+num1+"-(-"+num2+") = "+num+" ===---");
+
+		// Closing the Assignment 101!!!
+		System.out.println("\n\nThanks for using this program \n ---=={End of Program}==---");
+		
+	}
+}
